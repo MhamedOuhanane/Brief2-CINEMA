@@ -32,17 +32,74 @@ header img{
 
 .div3 input{
     background-color: #FFCCFD;
-    font-size: medium;
-
+    border: none;
+    border-radius: 12px;
 }
 
 .header .div3{
-    width: 29%;
+    width: 190px;
+    height: 47%;
     display: flex;
     background-color: #FFCCFD;
+    border-radius: 12px;
 }
 
-.home_section1{
-    background: linear-gradient(to top left, #FFF3B0 7%, #F4CAC0 15%,#CA26FF 93%);
+.max_div{
+    background: linear-gradient(to bottom right,#CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
     border-radius: 20px 20px 300px 20px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
 }
+
+.max_div .div1{
+    width: 600px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.max_div .dive1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.max_div .div2{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.max_div img{
+    width: 100%;
+}
+
+.max_div p{
+    color: white;
+    width: 83%;
+    line-height: 170%;
+    margin-right: 60px;
+}
+.max_div button{
+    background-color: black;
+    color: #FFCCFD;
+    margin-top: 30px;
+    width: 150px;
+    height: 40PX;
+    border-radius: 20px;
+    border: none;
+}
+
+.max_div h1{
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+.max_div h3{
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 8px;
+}
+
