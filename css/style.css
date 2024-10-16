@@ -68,7 +68,11 @@ a{
     /* home  */
     /* home.section1 */
 
-.max_div{
+.home_section1 {
+    background: linear-gradient(to top, white 0%,#cccccc 85%,white 93%);
+}
+
+.home_section1 .max_div{
     background: linear-gradient(to bottom right,#CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
     border-radius: 20px 20px 300px 20px;
     height: 700px;
@@ -77,37 +81,37 @@ a{
 
 }
 
-.max_div .div1{
+.home_section1 .max_div .div1{
     width: 600px;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.max_div .dive1{
+.home_section1 .max_div .dive1{
     height: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.max_div .div2{
+.home_section1 .max_div .div2{
     width: 400px;
     display: flex;
     align-items: center;
 }
 
-.max_div img{
+.home_section1 .max_div img{
     width: 100%;
 }
 
-.max_div p{
+.home_section1 .max_div p{
     color: white;
     width: 83%;
     line-height: 170%;
     margin-right: 60px;
 }
-.max_div button{
+.home_section1 .max_div button{
     background-color: black;
     color: #FFCCFD;
     margin-top: 30px;
@@ -117,14 +121,14 @@ a{
     border: none;
 }
 
-.h1{
-    font-size: 30px;
+.home_section1 h1{
+    font-size: 40px;
     letter-spacing: 6px;
 }
-.max_div h3{
+.home_section1 .max_div h3{
     margin-top: 10px;
     color: white;
-    letter-spacing: 8px;
+    letter-spacing: 15px;
 }
 
 
@@ -186,7 +190,7 @@ a{
 }
 
 .home_section3{
-    height: 700px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -209,7 +213,7 @@ a{
 }
 
 .home_section3 .div2{
-    width: 70%;
+    width: 75%;
 
     display: flex;
     align-content: center;
@@ -224,10 +228,60 @@ a{
     /* home.section4 */
 
 .home_section4{
-    display: flex;
-    flex-direction: column;
+    height: 800px;
+    background: linear-gradient(to top, white 0%,#cccccc 85%,white 100%);
+    display: grid;
+    align-content: space-around;
+    position: relative;
 }
 
+.home_section4 .max_div1{
+    height: 600px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_section4 .dive{
+    width: 26%;
+    height: 85%;
+    background-color: #330031;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.home_section4 .max_div1 .div1{
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.home_section4 pre{
+    font-size: 15px;
+}
+
+.home_section4 h1{
+    font-size: 30px;
+    letter-spacing: 6px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.home_section4 .button{
+    background-color: #330031;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 12px;
+}
 
 
 
