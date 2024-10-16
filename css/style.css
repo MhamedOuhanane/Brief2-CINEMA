@@ -45,7 +45,7 @@ header img{
 }
 
 .header .div3{
-    width: 200px;
+    width: 15%;
     height: 40%;
     display: flex;
     background-color: #FFCCFD;
@@ -53,7 +53,7 @@ header img{
 }
 .header .button{
     background-color: transparent;
-    color: white;
+    width: 16%;
     border: none;
 }
 
@@ -62,7 +62,8 @@ a{
     text-decoration: none;
 }
 
-.header .active{
+.header .li:hover{
+    color: #CA26FF;
 }
 
     /* home  */
@@ -168,7 +169,6 @@ a{
     height: 40px;
     border: none;
     border-radius: 20px;
-    box-shadow: none;
 }
 
 .home_section2 .ima{
@@ -282,6 +282,76 @@ a{
     border: none;
     margin: 12px;
 }
+    /* footer */
+
+.footer{
+    background-color: #330031;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.footer .divmax{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.footer .divmax > div{
+    width: 33.34%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer ul{
+    width: 100%;
+    list-style: circle;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .div2{
+    border-right: solid 3px white;
+    border-left: solid 3px white;
+    padding-top: 2%;
+}
+
+.footer .div1{
+    padding-top: 4%;
+}
+
+.footer .divmax .div3 ul{
+    width: 60%;
+    list-style: none;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .dive{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.footer .dive > pre{
+    padding-right: 25%;
+}
+
+
+
 
 
 
