@@ -51,15 +51,18 @@ header img{
     background-color: #FFCCFD;
     border-radius: 20px;
 }
-.header button{
+.header .button{
     background-color: transparent;
-    border: none;
     color: white;
+    border: none;
 }
 
 a{
     color: #000000;
     text-decoration: none;
+}
+
+.header .active{
 }
 
     /* home  */
@@ -114,7 +117,7 @@ a{
     border: none;
 }
 
-.max_div h1{
+.h1{
     font-size: 30px;
     letter-spacing: 6px;
 }
@@ -124,13 +127,7 @@ a{
     letter-spacing: 8px;
 }
 
-.home_section1 span{
-    position: absolute;
-    background-color: white;
-    left: 20px;
-    bottom: 100%;
 
-}
 
 /* home.sectiom2 */
 
@@ -151,7 +148,7 @@ a{
 }
 
 .home_section2 img{
-    width: 180px;
+    width: 190px;
 }
 
 .home_section2 .div1 div{
@@ -178,9 +175,58 @@ a{
 
 .home_section2 .div2{
     width: 100%;
-    text-decoration: overline;
+    position: relative;
 }
 
+    /* home.section3 */
+
+.home_section3 img{
+    width: 30%;
+    margin: 10px;
+}
+
+.home_section3{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.home_section3 ul{
+    height: 50px;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_section3 .max_div1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_section3 .div2{
+    width: 70%;
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.home_section3 .div2 div{
+    display: flex;
+    justify-content: center;
+}
+
+    /* home.section4 */
+
+.home_section4{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
