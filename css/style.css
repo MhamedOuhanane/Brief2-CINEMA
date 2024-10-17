@@ -73,12 +73,24 @@ a{
     color: #CA26FF;
 }
 
+.header .li-active{
+    color: #CA26FF;
+}
     /* home  */
     /* home.section1 */
 
 .home_section1 {
     background: linear-gradient(to bottom right,#CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
     border-radius: 20px 20px 300px 20px;
+}
+
+.home_section1 h1{
+    background: linear-gradient(to bottom, #990094 , #330031);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    letter-spacing: 6px;
 }
 
 .home_section1 .max_div{
@@ -128,10 +140,6 @@ a{
     border: none;
 }
 
-.home_section1 h1{
-    font-size: 40px;
-    letter-spacing: 6px;
-}
 .home_section1 .max_div h3{
     margin-top: 10px;
     color: white;
@@ -386,12 +394,26 @@ a{
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-#movies > h1{
-    font-size: 40px;
-    color: ;
+
+#movies div{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#h1-movies{
+    color: #F632F1;
+}
+
+#movies p{
+    width: 35%;
+    text-align: center;
+    line-height: 170%;
+
 }
 
 #movies2{
@@ -403,9 +425,12 @@ a{
     color: #000000;
 }
 
+                           /*             TARIFS           */
 
-
-
+#tarifs h1{
+    font-size: 40px;
+    background: linear-gradient(to )
+}
 
 
 
