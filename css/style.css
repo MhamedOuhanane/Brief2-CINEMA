@@ -8,6 +8,7 @@
 }
 
 #transition ::view-transition{
+    transition: all;
 
 }
 
@@ -262,6 +263,10 @@ a{
     font-size: 40px;
 }
 
+.liste::after{
+    text-decoration-line: initial;
+}
+
     /* home.section4 */
 
 .home_section4{
@@ -439,36 +444,53 @@ a{
 
 #tarifs h1{
     margin-left: 50px;
+    font-size: 40px;
 }
 
 .tarifs .DIV{
     background-color: #990094;
     border-radius: 50px;
     width: 28.5%;
-    height: 496px;
+    height: 480px;
     color: white;
     font-size: 32px;
+    padding:  15px 0;
     display: flex;
     justify-content: space-around;
-    padding: 0 10px;
     flex-direction: column;
     align-items: center;
 }
 
 .tarifs .DIV div{
     background-color: #FFCCFD;
-    height: 54.74%;
+    height: 70%;
     width: 100%;
+    
     font-size:24px;
+    text-align: center;
     color: #000000;
-    line-height: 180%;
+    line-height: 250%;
+    padding: 0 37.5px;
     display: flex;
-    padding: 0 60px;
     text-align: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+ 
+.tarifs p{
+    height: 60%;
+    
+}
 
+.tarifs{
+    height: 1200px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50PX;
 }
 
 
