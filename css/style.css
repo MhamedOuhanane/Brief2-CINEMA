@@ -7,8 +7,13 @@
     scroll-behavior: smooth;
 }
 
-#transition ::view-transition{
-    transition: all;
+#transition:hover{
+    transform: translate(5px , -5px);
+    box-shadow: 0 4px 6px #330031;
+    background-attachment: fixed;
+    text-shadow: 0 4px 6px #330031;
+    -webkit-text-fill-color: transparent;
+
 
 }
 
@@ -62,6 +67,8 @@ header img{
     background: transparent;
     width: 16%;
     border: none;
+    color: #FFFFFF;
+    outline: none;
 }
 
 
@@ -263,8 +270,8 @@ a{
     font-size: 40px;
 }
 
-.liste::after{
-    text-decoration-line: initial;
+.liste:hover{
+    color: #000;
 }
 
     /* home.section4 */
@@ -493,10 +500,24 @@ a{
     gap: 50PX;
 }
 
+                              /*     contact         */
 
+#contact{
+    border-radius: 20px;
+    height: 750px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 
-
+#contact .form{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    margin-top: 70px;
+}
 
 
 
