@@ -8,14 +8,15 @@
 }
 
 #transition:hover{
-    transform: translate(5px , -5px);
-    box-shadow: 0 4px 6px #330031;
-    background-attachment: fixed;
-    text-shadow: 0 4px 6px #330031;
-    -webkit-text-fill-color: transparent;
-
-
+    transform: translate(5px,-5px);
+    box-shadow: 0 5px 9px #990094;
 }
+
+ul li:hover{
+    transform: translate(5px , -5px);
+    text-shadow: 0 5px 9px #990094;
+}
+
 
     /* header */
 .header{
@@ -183,6 +184,14 @@ a{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    transition: all 0.4s ease;
+}
+
+.home_section2 .div1 div:hover{
+    background: none;
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    transform: scale(1.1);
 }
 
 .home_section2 button{
@@ -359,7 +368,7 @@ a{
 
 }
 
-.footer ul{
+.footer ol{
     width: 70%;
     margin-right: 60px;
     list-style: circle;
@@ -472,7 +481,6 @@ a{
     background-color: #FFCCFD;
     height: 70%;
     width: 100%;
-    
     font-size:24px;
     text-align: center;
     color: #000000;
@@ -483,6 +491,14 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.tarifs button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
 }
  
 .tarifs p{
@@ -499,6 +515,8 @@ a{
     align-items: center;
     gap: 50PX;
 }
+
+
 
                               /*     contact         */
 
@@ -517,6 +535,28 @@ a{
     width: 70%;
     height: 70%;
     margin-top: 70px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px 20px 0 60px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 1fr 3fr;
+    grid-template-rows: repeat(3 , 1fr) 3fr;
+}
+
+.form input{
+    background-color: #FFCCFD;
+    border: none;
+    height: 55px;
+    font-size: 25px;
+    outline: none;  
+
+}
+
+.form ::placeholder{
+    color: #cccccc;
+    font-size: 25px;
 }
 
 
