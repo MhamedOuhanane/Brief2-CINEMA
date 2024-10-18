@@ -387,14 +387,14 @@ a{
     padding-top: 4%;
 }
 
-.footer .divmax .div3 ul{
-    width: 60%;
-    list-style: none;
-    height: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer .divmax .div3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    padding-left: 50px;
+
 }
+
 
 .footer .dive{
     height: 20%;
@@ -523,18 +523,22 @@ a{
 #contact{
     border-radius: 20px;
     height: 750px;
-    padding-left: 20px;
+    padding-left: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 
+}
+
+#contact h1{
+    margin: 20px 70px;
 }
 
 #contact .form{
     background-color: white;
-    width: 70%;
-    height: 70%;
-    margin-top: 70px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     font-size: 25px;
     padding: 10px 20px 0 60px;
@@ -543,6 +547,13 @@ a{
     display: grid;
     grid-template-columns: 200px 1fr 3fr;
     grid-template-rows: repeat(3 , 1fr) 3fr;
+    
+    
+}
+
+#contact> form{
+    width: 80%;
+    height: 75%;
 }
 
 .form input{
@@ -550,16 +561,39 @@ a{
     border: none;
     height: 55px;
     font-size: 25px;
-    outline: none;  
+    outline: none;
+    border-radius: 13px;  
 
 }
 
 .form ::placeholder{
     color: #cccccc;
     font-size: 25px;
+    padding-left: 5px;
 }
 
+.form .input-message{
+    text-align: center;
+    height: 75%;
+    width: 94%; 
+    
+    margin-bottom: 6% ;
+    grid-column: 1 / 4; 
+}
 
+#contact button{
+    background-color: #990094;
+    width: 10%;
+    height: 7%;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    
+}
 
 
 
