@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-#transition:hover{
+#formation:hover{
     transform: translate(5px,-5px);
     box-shadow: 0 5px 9px #990094;
 }
@@ -420,8 +420,8 @@ a{
 
 }
 
-.footer .logo {
-    font-size: 24px;
+.footer .logo h1{
+    font-weight: bold;
     
 }
 
